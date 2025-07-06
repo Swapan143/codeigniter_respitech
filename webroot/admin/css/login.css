@@ -1,0 +1,492 @@
+body{
+    /*background: linear-gradient(to left, #3a829a 0%, #59396d 100%);
+    height: 900px;
+    background-repeat: no-repeat;
+    object-fit: cover;*/
+
+    background-image: url("financial-plan1.jpg");
+    object-fit: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 607px;
+}
+
+.header-section{
+    position: absolute;
+    z-index: 2;
+    left: -29px;
+    top:20px;
+}
+.header-section img{
+    width: 175px;
+}
+.login-panel{
+    display: flex !important;
+    height: 200px;
+    background: #fff;
+}
+.centered-modal.in {
+    display: flex !important;
+}
+.centered-modal .modal-dialog {
+    margin: auto;
+}
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 10px;
+    outline: 0;
+}
+.modal-body .model-half-section:nth-last-child(2){
+    border-left: 1px solid #e8e5e1;
+    padding: 20px 0;
+}
+.model-half-section-first{
+    width: 60%;
+    float: left;
+}
+.model-half-section-second{
+    /*width: 40%;*/
+    /*float: left;*/
+}
+.modal-dialog-centered {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - (.5rem * 2));
+}
+.modal-body{
+    padding: 0px;
+}
+img.img-login{
+    width: 100%;
+    padding: 30px 10px 20px;
+}
+.login-header{
+    font-size: 18px;
+}
+.login-page-header{
+    padding: 20px 0 10px;
+    text-align: center;
+    color: #fff;
+}
+.login-detail-sec p{
+    color: #989090;
+    font-size: 13px;
+    padding: 0px 0 15px;
+}
+.login-header span{
+line-height: 45px;
+}
+.form-label{
+    color: #fff;
+    margin:20px 0 0;
+    font-size:15px; 
+}
+.carousel-indicators {
+    position: relative;
+    bottom: 0;
+    left: 28px;
+    z-index: 15;
+    width: 20px;
+    padding-left: 0;
+    margin-left: 0;
+    text-align: center;
+    list-style: none;
+
+}
+.carousel-indicators li {
+    border: 1px solid #6d6262;
+}
+.carousel-indicators-sec{
+    position: absolute;
+     display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: calc(100% - (.5rem * 2));   
+}
+.login-detail-sec{
+    padding: 10px 20px;
+    background: rgba(48,192,218,1);
+    background: -moz-linear-gradient(top, rgba(48,192,218,1) 0%, rgba(34,130,255,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(48,192,218,1)), color-stop(100%, rgba(34,130,255,1)));
+    background: -webkit-linear-gradient(top, rgba(48,192,218,1) 0%, rgba(34,130,255,1) 100%);
+    background: -o-linear-gradient(top, rgba(48,192,218,1) 0%, rgba(34,130,255,1) 100%);
+    background: -ms-linear-gradient(top, rgba(48,192,218,1) 0%, rgba(34,130,255,1) 100%);
+    background: linear-gradient(to bottom, rgb(51 16 77) 0%, rgb(114 118 121 / 22%) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#30c0da', endColorstr='#2282ff', GradientType=0 );
+    margin: 38px 40px 40px 0;
+    border-radius: 10px;
+    height: calc(100% - 15%);
+    /*position: absolute;*/
+}
+a, a:hover, a:focus, input, button, textarea, button:hover, button:focus, button:selected, button:active {
+    outline: none !important;
+    text-decoration: none;
+    box-shadow: none;
+    border: none;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+.login-button{
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+.btn-hover {
+    font-size: 14px;
+    font-weight: 600;
+    color: #171616;
+    cursor: pointer;
+    padding: 8px 70px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 6px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    margin: 60px 0 10px;
+}
+.btn-hover.forgot-page {
+    margin: 120px 0 10px;
+}
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+
+.btn-hover.color-3 {
+background-image: linear-gradient(to right, #ffffff, #ffffff, #f7f4f4, #fff8f8);
+}
+
+.forgot-text{
+    text-align: center;
+    font-size: 13px;
+    padding: 15px 0;
+}
+.forgot-text a{
+    color: #fff;
+    text-decoration: none;
+}
+.forgot-text a:hover{
+    color: #eee;
+}
+.get-help{
+    color: #fff;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+}
+.login-text-2{
+    text-align: center;
+    color: #fff;
+    font-size: 13px;
+    padding: 0px 0 30px;
+}
+
+.half-section-img {
+    animation: swing ease-in-out 1s infinite alternate;
+    transform-origin: center -20px;
+    float:left;
+}
+.half-section-img img {
+    display: block;
+}
+.sab-header{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 25px;
+}
+.footer-left-text{
+    width: 50%;
+    float: left;
+    text-align: left;
+}
+.footer-right-text{
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+footer a {
+    color: #3a4249;
+    text-decoration: none;
+}
+
+
+
+
+ 
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+
+@media (max-width: 767px) {
+.model-half-section{
+    clear: both;
+}
+.centered-modal.in {
+    display: flex !important;
+    position: relative;
+    padding-bottom: 100px;
+    margin-top: 50px;
+}
+.login-text-2-sec{
+    float: none !important;
+}
+.login-header {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.modal-body .model-half-section:nth-last-child(2) {
+    border: none;
+    border-top: 1px solid #e8e5e1;
+    padding: 0;
+    margin-top: 30px;
+}
+.modal-body .model-half-section:first-child {
+    border: none;
+    margin: 0px;
+}
+.login-detail-sec {
+    /*padding: 20px 0px;*/
+}
+.login-text-2 {
+    padding: 0px 0 0;
+}
+.model-body-sec-form input {
+    margin-bottom: 10px;
+    padding: 7px 70px 7px 50px;
+}
+
+.model-body-sec-form i {
+    font-size: 16px;
+}
+
+
+}
+
+@media (min-width: 320px) and  (max-width: 380px) {
+img.img-login {
+    width: 100%;
+    padding: 0 45px 10px;
+}
+
+}
+
+
+@media (min-width: 381px) and  (max-width: 480px) {
+img.img-login {
+    width: 100%;
+    padding: 20px 60px;
+}
+}
+@media (min-width: 481px) and  (max-width: 560px) {
+img.img-login {
+    padding: 10px 70px;
+}
+}
+@media (min-width: 561px) and  (max-width: 767px) {
+img.img-login {
+    padding: 10px 100px;
+}
+}
+@media (min-width: 768px) and  (max-width: 991px) {
+    img.img-login {
+    width: 100%;
+    padding: 78px 0;
+}
+.centered-modal.in {
+    display: flex !important;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+
+}
+
+@media (min-width: 992px) and  (max-width: 1199px) {
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+}
+@media (max-width: 991px) {
+.carousel-indicators-sec {
+    position: initial;
+}
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+.header-section img {
+    width: 125px;
+}
+.header-section {
+    left: -21px;
+    top: 20px;
+}
+.hide-on-mobile{
+    display: none !important;
+}
+.login-header span {
+    line-height: 20px;
+}
+.model-half-section-first {
+    width: 100%;
+    float: left;
+}
+.model-half-section-second {
+    width: 100%;
+    float: left;
+}
+.login-detail-sec{
+    /*position: relative;*/
+        /*margin: 100px 20px 20px 20px !important;*/
+}
+body {
+    background: url(../images/admin-Panel-bg.jpg);
+    object-fit: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-detail-sec{
+    margin: 20px;
+}
+.login-page-header {
+    padding: 10px 0 4px;
+    text-align: center;
+    color: #fff;
+}
+.btn-hover, .btn-hover.forgot-page{
+    margin: 30px 0 10px;
+}
+
+}
+@media (min-width: 992px) {
+    .hide-on-pc{
+    display: none !important;
+}
+}
+
+.bg-img-width{
+    width: 100%;
+}
+
+
+@media (max-width: 480px){
+
+.footer-right-text, .footer-left-text{
+    width: 100% !important;
+    text-align: center;
+    padding-top: 5px;
+}
+footer {
+    bottom: -50px !important;
+}
+}
+
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-caption{padding-bottom:80px;}
+
+h2{font-size: 60px;}
+p{padding:10px}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    opacity:0.6;
+}
+footer{
+text-align: center;
+    color: #000;
+    font-size: 13px;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    bottom: -25px;
+}
+
+
+/*= Reset CSS 
+============= */
+
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.row{float: left; width: 100%; padding: 20px 0 50px;}
+h2{text-align: center; color: #2079df; font-size: 28px; float: left; width: 100%; margin: 30px 0; position: relative; line-height: 58px; font-weight: 400;}
+h2:before{content: ""; position: absolute; left: 50%; bottom: 0; width: 100px; height: 2px; background-color: #2079df; margin-left: -50px;}
+/*= Reset CSS End
+================= */
+
+/*= input focus effects css
+=========================== */
+:focus{outline: none;}
+
+.col-3{float: left; width: 27.33%; margin: 40px 3%; position: relative;} /* necessary to give position: relative to parent. */
+input{font: 13px/24px "Lato", Arial, sans-serif; color: #f9f9f9; width: 100%; box-sizing: border-box; letter-spacing: 1px; background: transparent;}
+
+input::placeholder {
+  color: #e2e1e1 !important;
+}
+.effect-1{border: 0; padding: 3px 0 7px; border-bottom: 1px solid #fff;    background: transparent;    width: 100%;}
+
+.effect-1 ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #01f3ff; transition: 0.4s;}
+.effect-1:focus ~ .focus-border{width: 100%; transition: 0.4s;}
+
+.error-message{
+        color: red;
+    font-size: 13px;
+    position: absolute;
+}
+
+=============================== */
+
